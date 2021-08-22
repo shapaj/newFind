@@ -186,6 +186,9 @@
                                         <state key="normal" title="Record">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="dIQ-YJ-gd6" kind="show" id="lvM-pc-kAO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -524,7 +527,6 @@
                             <constraint firstItem="bub-83-cp6" firstAttribute="bottom" secondItem="qek-xI-pNl" secondAttribute="bottom" constant="70" id="CdK-tw-gWC"/>
                             <constraint firstItem="Mup-lP-euQ" firstAttribute="leading" secondItem="bub-83-cp6" secondAttribute="leading" constant="20" id="GXf-xc-3S7"/>
                             <constraint firstItem="Mup-lP-euQ" firstAttribute="centerY" secondItem="bub-83-cp6" secondAttribute="centerY" id="PBj-i6-pRY"/>
-                            <constraint firstItem="Mup-lP-euQ" firstAttribute="top" secondItem="bub-83-cp6" secondAttribute="top" constant="200" id="ZEe-IM-DhG"/>
                             <constraint firstItem="0hC-Im-acI" firstAttribute="top" secondItem="bub-83-cp6" secondAttribute="top" constant="40" id="ZfO-K5-KUh"/>
                             <constraint firstItem="qek-xI-pNl" firstAttribute="top" secondItem="Mup-lP-euQ" secondAttribute="bottom" constant="60" id="peu-Uy-VH3"/>
                         </constraints>
@@ -811,6 +813,7 @@
                         <viewLayoutGuide key="safeArea" id="vu9-Fb-yea"/>
                         <color key="backgroundColor" red="0.91589534282684326" green="0.52760249376296997" blue="0.84912848472595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="96O-mK-Fcg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1uw-rB-mUs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

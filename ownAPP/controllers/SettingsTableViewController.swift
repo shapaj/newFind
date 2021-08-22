@@ -13,6 +13,7 @@ class SettingsTableViewController: UITableViewController {
    
     @IBOutlet weak var selectTime: UILabel!
    
+    var settings = Settings.shared
     var selectValue:Int = 30{
         didSet{
             selectTime.text = "\(selectValue) s"
@@ -20,7 +21,7 @@ class SettingsTableViewController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        selectValue = Settings.shared.curentSettings.timeforGame
         
     }
 
@@ -35,6 +36,6 @@ class SettingsTableViewController: UITableViewController {
         }
     }
         
-        
+    
         
 }
