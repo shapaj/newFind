@@ -11,6 +11,7 @@
 		2A2BDCCE26CAB55B007635AB /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2BDCCD26CAB55B007635AB /* SettingsTableViewController.swift */; };
 		2A2BDCD026CAFB12007635AB /* SettingsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2BDCCF26CAFB12007635AB /* SettingsGame.swift */; };
 		2A3E0B1826B207F30014AA85 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3E0B1726B207F30014AA85 /* Login.storyboard */; };
+		2A5DCD6F26CD238100809247 /* StudySB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5DCD6E26CD238100809247 /* StudySB.storyboard */; };
 		2A6E2BB926B2B34000AB6928 /* AppLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E2BB826B2B34000AB6928 /* AppLogin.swift */; };
 		2A6E2BBD26B2D3D300AB6928 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E2BBC26B2D3D300AB6928 /* GameViewController.swift */; };
 		2A6E2BBF26B2D74D00AB6928 /* GameModelIncease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E2BBE26B2D74D00AB6928 /* GameModelIncease.swift */; };
@@ -49,6 +50,7 @@
 		2A2BDCCD26CAB55B007635AB /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		2A2BDCCF26CAFB12007635AB /* SettingsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsGame.swift; sourceTree = "<group>"; };
 		2A3E0B1726B207F30014AA85 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		2A5DCD6E26CD238100809247 /* StudySB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudySB.storyboard; sourceTree = "<group>"; };
 		2A6E2BB826B2B34000AB6928 /* AppLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogin.swift; sourceTree = "<group>"; };
 		2A6E2BBC26B2D3D300AB6928 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2A6E2BBE26B2D74D00AB6928 /* GameModelIncease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModelIncease.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				2AF6EEC826B15819000E6577 /* Assets.xcassets */,
 				2AF6EECA26B15819000E6577 /* LaunchScreen.storyboard */,
 				2AF6EECD26B15819000E6577 /* Info.plist */,
+				2A5DCD6E26CD238100809247 /* StudySB.storyboard */,
 				2AF6EEF126B15A11000E6577 /* study_data.playground */,
 			);
 			path = ownAPP;
@@ -281,6 +284,7 @@
 			files = (
 				2A3E0B1826B207F30014AA85 /* Login.storyboard in Resources */,
 				2AF6EECC26B15819000E6577 /* LaunchScreen.storyboard in Resources */,
+				2A5DCD6F26CD238100809247 /* StudySB.storyboard in Resources */,
 				2AF6EEC926B15819000E6577 /* Assets.xcassets in Resources */,
 				2AF6EEC726B15816000E6577 /* Main.storyboard in Resources */,
 			);

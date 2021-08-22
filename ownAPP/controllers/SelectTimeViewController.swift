@@ -76,10 +76,8 @@ extension SelectTimeViewController:UITableViewDataSource, UITableViewDelegate{
                 if let VC = uiVC as? SettingsTableViewController{
                     VC.selectValue = self.data[Int(indexPath.row)]
                     
-                    Settings.shared.curentSettings.timeforGame = VC.selectValue //!!! разобраться как работает и как пользоваться
-                    UserDefaults.standard.setValue(VC.selectValue, forKey: "timeForGame")
-                    //UserDefaults.standard.value(forKey: "timeForGame") // can return nil optional type
-                    //UserDefaults.standard.integer(forKey: "timeForGame") // if value undefined return 0
+                    Settings.shared.curentSettings.timeforGame = VC.selectValue
+                    
                     navigationController?.popViewController(animated: true)
                 }
             }

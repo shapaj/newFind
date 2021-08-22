@@ -28,18 +28,17 @@ class Settings{
     var curentSettings:SettingsGame{
         get{
             if let data = UserDefaults.standard.object(forKey: KeysUserFefaults.settingsGame) as? Data{
-                return try! PropertyListDecoder().decode(SettingsGame.self, from: data)
+                if let settings =  try? PropertyListDecoder().decode(SettingsGame.self, from: data)
+                {
+                    return settings
+                }else{
+                    return defaultSettingsGame
+                }
+            }else{
+                self.curentSettings = defaultSettingsGame
             }
-            
-            if let data = try? PropertyListEncoder().encode(defaultSettingsGame){
-            UserDefaults.standard.setValue(data, forKey: KeysUserFefaults.settingsGame)
-            }
-            self.curentSettings = defaultSettingsGame
-            
-            return defaultSettingsGame
-            
-            
-            
+            print(self.curentSettings)
+            return self.curentSettings
         }
         set{
             do{
