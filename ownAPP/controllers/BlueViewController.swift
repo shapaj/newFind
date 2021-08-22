@@ -1,9 +1,5 @@
 //
-//  ViewController.swift
-//  ownAPP
-//
-//  Created by Ihor Shovkoplias on 28.07.2021.
-//
+
 
 import UIKit
 
