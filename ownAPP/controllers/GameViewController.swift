@@ -1,6 +1,6 @@
 import UIKit
 
-// White Game
+// is White Game
 class GameViewController: UIViewController {
 
     @IBOutlet weak var timer: UILabel!
